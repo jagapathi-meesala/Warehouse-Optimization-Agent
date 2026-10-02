@@ -1,3 +1,8 @@
+---
+name: capacity-optimization
+description: Warehouse optimization capability for capacity-optimization.
+---
+
 # Capacity Optimization Skill
 
 ## Purpose

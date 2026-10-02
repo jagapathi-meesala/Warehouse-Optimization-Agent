@@ -1,0 +1,15 @@
+name: analyze-inventory
+description: Analyze warehouse inventory levels, demand, turnover, and stock status.
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    items:
+      type: array
+  required: [items]
+output_schema:
+  type: object
+implementation:
+  type: script
+  path: analyze_inventory.py
+  runtime: python3

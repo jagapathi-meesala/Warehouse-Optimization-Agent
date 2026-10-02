@@ -1,3 +1,8 @@
+---
+name: replenishment-planning
+description: Warehouse optimization capability for replenishment-planning.
+---
+
 # Replenishment Planning Skill
 
 ## Purpose

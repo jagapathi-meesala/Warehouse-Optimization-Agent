@@ -1,3 +1,8 @@
+---
+name: inventory-analysis
+description: Warehouse optimization capability for inventory-analysis.
+---
+
 # Inventory Analysis Skill
 
 ## Purpose

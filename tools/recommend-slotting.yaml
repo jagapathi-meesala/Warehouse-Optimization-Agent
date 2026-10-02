@@ -1,0 +1,15 @@
+name: recommend-slotting
+description: Recommend warehouse product slotting based on operational characteristics.
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    items:
+      type: array
+  required: [items]
+output_schema:
+  type: object
+implementation:
+  type: script
+  path: recommend_slotting.py
+  runtime: python3

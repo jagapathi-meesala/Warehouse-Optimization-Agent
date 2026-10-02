@@ -1,3 +1,8 @@
+---
+name: warehouse-slotting
+description: Warehouse optimization capability for warehouse-slotting.
+---
+
 # Warehouse Slotting Skill
 
 ## Purpose

@@ -1,0 +1,15 @@
+name: assess-capacity
+description: Assess warehouse storage capacity and utilization.
+version: 1.0.0
+input_schema:
+  type: object
+  properties:
+    zones:
+      type: array
+  required: [zones]
+output_schema:
+  type: object
+implementation:
+  type: script
+  path: assess_capacity.py
+  runtime: python3
