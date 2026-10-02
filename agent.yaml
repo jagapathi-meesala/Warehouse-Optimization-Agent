@@ -1,27 +1,27 @@
 spec_version: "0.1.0"
-name: warehouse-optimization-agent
-version: 1.0.0
-description: Framework-independent agent for inventory analysis, warehouse slotting, replenishment planning, and capacity optimization.
-license: MIT
+name: "warehouse-optimization-agent"
+version: "1.0.0"
+description: "Framework-independent agent for inventory analysis, warehouse slotting, replenishment planning, and capacity optimization."
+license: "MIT"
 skills:
-  - inventory-analysis
-  - warehouse-slotting
-  - replenishment-planning
-  - capacity-optimization
+  - "inventory-analysis"
+  - "warehouse-slotting"
+  - "replenishment-planning"
+  - "capacity-optimization"
 tools:
-  - analyze-inventory
-  - recommend-slotting
-  - calculate-replenishment
-  - assess-capacity
+  - "analyze-inventory"
+  - "recommend-slotting"
+  - "calculate-replenishment"
+  - "assess-capacity"
 runtime:
   max_turns: 20
   timeout: 30
 tags:
-  - warehouse
-  - inventory
-  - logistics
-  - optimization
-  - supply-chain
+  - "warehouse"
+  - "inventory"
+  - "logistics"
+  - "optimization"
+  - "supply-chain"
 metadata:
-  domain: warehouse-operations
-  portability: framework-independent
+  domain: "warehouse-operations"
+  portability: "framework-independent"
