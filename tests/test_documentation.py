@@ -8,7 +8,7 @@ def test_explainability_headings():
 def test_declared_skills_exist():
     import yaml
     manifest=yaml.safe_load((ROOT/"agent.yaml").read_text())
-    for skill in manifest["skills"]: assert (ROOT/"skills"/f"{skill}.md").exists()
+    for skill in manifest["skills"]: assert (ROOT/"skills"/skill/"SKILL.md").exists()
 
 def test_declared_tools_exist():
     import yaml

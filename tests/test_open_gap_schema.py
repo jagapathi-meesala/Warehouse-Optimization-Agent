@@ -8,4 +8,4 @@ def test_manifest_open_gap_core_rules():
     assert m["name"]=="warehouse-optimization-agent"
     assert set(m)-{"spec_version","name","version","description","license","skills","tools","runtime","tags","metadata"}==set()
     assert all(" " not in s and s==s.lower() for s in m["skills"]+m["tools"])
-    assert all((ROOT/"skills"/f"{s}.md").exists() for s in m["skills"])
+    assert all((ROOT/"skills"/s/"SKILL.md").exists() for s in m["skills"])
